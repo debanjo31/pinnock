@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PINNOCK VISITOR REQUEST</title>
+</head>
+
+<body>
+    <h1>Pinnock Estate, Lekki</h1>
+    <h3>Request Form</h3>
+    <form>
+        <label for="name">Visitor Name:</label>
+        <input type="text" id="name" name="name" required autocomplete="off" placeholder="Enter your name">
+        <br><br>
+        <label for="email">Visitor Email:</label>
+        <input type="email" id="email" name="email" required autocomplete="off" placeholder="Enter your email">
+        <br><br>
+        <label for="requestDate">Visitor Request Date:</label>
+        <input type="datetime-local" id="requestDate" name="requestDate" required placeholder="Select date and time">
+        <br><br>
+        <label for="numberOfVisitors">Number of Visitors:</label>
+        <input type="number" id="numberOfVisitors" name="numberOfVisitors" required
+            placeholder="Enter number of visitors" min="1" max="100">
+        <br><br>
+        <label for="requestWeek">Request Week:</label>
+        <input type="week" id="requestWeek" name="requestWeek" required>
+        <br><br>
+        <label for="gender">Visitor Gender:</label>
+        <br>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <br>
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <br>
+        <label for="other">Other</label>
+
+        <input type="radio" id="other" name="gender" value="other">
+        <br>
+        <label for="prefer">Prefer not to say</label>
+        <input type="radio" id="prefer" name="gender" value="prefer">
+        <!-- <select name="gender" id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select> -->
+        <br><br>
+        <label for="pets">Choose Pets you own:</label>
+        <input type="checkbox" id="dog" name="pets" value="dog">
+        <label for="dog">Dog</label>
+        <input type="checkbox" id="cat" name="pets" value="cat">
+        <label for="cat">Cat</label>
+        <input type="checkbox" id="other" name="pets" value="other">
+        <label for="other">Other</label>
+        <br><br>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required autocomplete="off">
+        <br><br>
+        <label for="comment">Additional Comments:</label>
+        <textarea id="comment" name="comment" rows="10" cols="50" placeholder="Enter your comments here"></textarea>
+        <br><br>
+        <input type="reset" value="Reset Form">
+        <input type="submit" value="Submit Request">
+    </form>
+</body>
+
+</html>
