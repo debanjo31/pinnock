@@ -1,0 +1,62 @@
+body {
+  /* background-color: gray; */
+  background-color: #006600;
+  background-image: url("https://images.unsplash.com/photo-1532274402911-5a369e4c4bb5?w=1920&auto=format&fit=crop&q=80&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bGFuZHNjYXBlZWVufDB8fDB8fHww");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 1px;
+  padding: 10px;
+  line-height: 2;
+  word-spacing: 10px;
+}
+
+a {
+  color: red;
+  /* text-decoration: dotted underline; */
+}
+
+p {
+  color: #006600;
+}
+
+form {
+  background-color: aquamarine;
+}
+
+blockquote {
+  background-color: rgba(255, 255, 255, 0.2);
+  /* border-color: #006600;
+  border-width: 1px;
+  border-style: ridge; */
+  border: #006600 2px solid;
+  border-radius: 16px;
+}
+
+address {
+  background-color: #006600;
+  border-left: red 4px solid;
+  margin-top: -40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50%;
+  padding-right: 20px;
+
+  /* border-right: blue 10px dotted;
+  border-top: yellow 2px solid;
+  border-bottom: purple 5px double; */
+}
+
+h1 {
+  text-align: center;
+  text-decoration: wavy underline;
+  text-transform: capitalize;
+  /* text-indent: 50px; */
+  letter-spacing: 10px;
+  text-shadow: 2px 2px red;
+  /* direction: rtl;
+  unicode-bidi: bidi-override; */
+}

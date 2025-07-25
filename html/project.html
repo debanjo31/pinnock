@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Demo Project - Web Development Showcase</title>
+    <link rel="stylesheet" href="project.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1> HTML Demo Project <i class="fa-solid fa-lightbulb"></i></h1>
+        <h2>A Comprehensive Showcase of HTML Elements</h2>
+        <hr>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <p> <a href="#tables">Tables <i class="fa-solid fa-table"></i></a> | <a href="#gallery">Gallery <i
+                    class="fa-solid fa-image"></i></a> | <a href="#forms">Forms <i
+                    class="fa-solid fa-strikethrough"></i></a> |<a href="#features"> Features <i
+                    class="fa-solid fa-toilet-paper"></i></a> |
+            <a href="#contact">Contact <i class="fa-solid fa-address-book"></i></a>
+        </p>
+        <hr>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- About Section -->
+        <section id="about">
+            <h2>📖 About This Project</h2>
+            <p>Welcome to our HTML-only demo project! This webpage demonstrates the power and versatility of HTML
+                without any CSS styling. Every element you see is created using pure HTML markup.</p>
+
+            <h3>Key Highlights:</h3>
+            <ul>
+                <li><strong>Pure HTML</strong> - No external stylesheets</li>
+                <li><strong>Semantic markup</strong> - Proper use of HTML5 elements</li>
+                <li><strong>Accessible design</strong> - Screen reader friendly</li>
+                <li><strong>Interactive elements</strong> - Forms, links, and media</li>
+            </ul>
+
+            <blockquote>
+                <p><em>"The best way to learn HTML is to practice with real projects!"</em></p>
+                <cite>— Web Development Best Practices</cite>
+            </blockquote>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features">
+            <h2>🚀 Features Demonstrated</h2>
+
+            <h3>Text Formatting Examples</h3>
+            <p>This paragraph contains various text formatting options:</p>
+            <ul>
+                <li><strong>Bold text</strong> using the strong tag</li>
+                <li><em>Italic text</em> using the em tag</li>
+                <li><u>Underlined text</u> using the u tag</li>
+                <li><mark>Highlighted text</mark> using the mark tag</li>
+                <li><del>Deleted text</del> using the del tag</li>
+                <li><ins>Inserted text</ins> using the ins tag</li>
+                <li><small>Small text</small> using the small tag</li>
+                <li>H<sub>2</sub>O (subscript) and E=mc<sup>2</sup> (superscript)</li>
+            </ul>
+
+            <h3>Code Examples</h3>
+            <p>Here's how to display code:</p>
+            <pre>
+function greetUser(name) {
+    console.log("Hello, " + name + "!");
+    return "Welcome to our HTML demo!";
+}
+            </pre>
+            <p>Inline code example: Use <code>&lt;p&gt;</code> tags for paragraphs.</p>
+
+            <h3>Definition Lists</h3>
+            <dl>
+                <dt>HTML</dt>
+                <dd>HyperText Markup Language - the standard markup language for web pages</dd>
+
+                <dt>CSS</dt>
+                <dd>Cascading Style Sheets - used for styling web pages</dd>
+
+                <dt>JavaScript</dt>
+                <dd>Programming language for adding interactivity to web pages</dd>
+            </dl>
+        </section>
+
+        <!-- Data Tables Section -->
+        <section id="tables">
+            <h2>📊 Data Tables</h2>
+
+            <h3>Student Grades Table</h3>
+            <table border="1">
+                <caption>Semester Grade Report</caption>
+                <thead>
+                    <tr>
+                        <th>Student Name</th>
+                        <th>Subject</th>
+                        <th>Grade</th>
+                        <th>Credits</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Alice Johnson</td>
+                        <td>Web Development</td>
+                        <td>A+</td>
+                        <td>3</td>
+                        <td>Pass</td>
+                    </tr>
+                    <tr>
+                        <td>Bob Smith</td>
+                        <td>Database Design</td>
+                        <td>B</td>
+                        <td>4</td>
+                        <td>Pass</td>
+                    </tr>
+                    <tr>
+                        <td>Carol Davis</td>
+                        <td>Computer Networks</td>
+                        <td>A</td>
+                        <td>3</td>
+                        <td>Pass</td>
+                    </tr>
+                    <tr>
+                        <td>David Wilson</td>
+                        <td>Software Engineering</td>
+                        <td>B+</td>
+                        <td>4</td>
+                        <td>Pass</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3"><strong>Total Credits:</strong></td>
+                        <td><strong>14</strong></td>
+                        <td><strong>All Pass</strong></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery">
+            <h2>🖼️ Media Gallery</h2>
+
+            <h3>Images</h3>
+            <figure>
+                <img src="https://via.placeholder.com/300x200/4CAF50/white?text=HTML+Demo"
+                    alt="HTML Demo Placeholder Image" width="300" height="200">
+                <figcaption>Figure 1: HTML Demo Project Banner</figcaption>
+            </figure>
+
+            <h3>Audio</h3>
+            <audio controls>
+                <source src="assets/favour.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <p><em>Audio file: favour.mp3 from the assets folder</em></p>
+
+            <h3>Embedded Content</h3>
+            <iframe src="https://www.example.com" width="400" height="200" title="Example Website">
+                <p>Your browser does not support iframes.</p>
+            </iframe>
+        </section>
+
+        <!-- Forms Section -->
+        <section id="forms">
+            <h2>📝 Interactive Forms</h2>
+
+            <h3>Contact Information Form</h3>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Personal Information</legend>
+
+                    <label for="fullname">Full Name:</label><br>
+                    <input type="text" id="fullname" name="fullname" placeholder="Enter your full name"
+                        required><br><br>
+
+                    <label for="email">Email Address:</label><br>
+                    <input type="email" id="email" name="email" placeholder="your.email@example.com" required><br><br>
+
+                    <label for="phone">Phone Number:</label><br>
+                    <input type="tel" id="phone" name="phone" placeholder="+1-234-567-8900"><br><br>
+
+                    <label for="birthday">Date of Birth:</label><br>
+                    <input type="date" id="birthday" name="birthday"><br><br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Preferences</legend>
+
+                    <label for="country">Country:</label><br>
+                    <select id="country" name="country">
+                        <option value="">Select your country</option>
+                        <option value="us">United States</option>
+                        <option value="ca">Canada</option>
+                        <option value="uk">United Kingdom</option>
+                        <option value="au">Australia</option>
+                        <option value="other">Other</option>
+                    </select><br><br>
+
+                    <label>Programming Languages (check all that apply):</label><br>
+                    <input type="checkbox" id="html" name="languages" value="html">
+                    <label for="html">HTML</label><br>
+
+                    <input type="checkbox" id="css" name="languages" value="css">
+                    <label for="css">CSS</label><br>
+
+                    <input type="checkbox" id="javascript" name="languages" value="javascript">
+                    <label for="javascript">JavaScript</label><br>
+
+                    <input type="checkbox" id="python" name="languages" value="python">
+                    <label for="python">Python</label><br><br>
+
+                    <label>Experience Level:</label><br>
+                    <input type="radio" id="beginner" name="experience" value="beginner">
+                    <label for="beginner">Beginner</label><br>
+
+                    <input type="radio" id="intermediate" name="experience" value="intermediate">
+                    <label for="intermediate">Intermediate</label><br>
+
+                    <input type="radio" id="advanced" name="experience" value="advanced">
+                    <label for="advanced">Advanced</label><br><br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Additional Information</legend>
+
+                    <label for="portfolio">Portfolio URL:</label><br>
+                    <input type="url" id="portfolio" name="portfolio" placeholder="https://yourportfolio.com"><br><br>
+
+                    <label for="skills">Skills Rating (1-10):</label><br>
+                    <input type="range" id="skills" name="skills" min="1" max="10" value="5"><br><br>
+
+                    <label for="comments">Comments:</label><br>
+                    <textarea id="comments" name="comments" rows="4" cols="50"
+                        placeholder="Tell us about your experience with web development..."></textarea><br><br>
+
+                    <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+                    <label for="newsletter">Subscribe to our newsletter</label><br><br>
+                </fieldset>
+
+                <input type="submit" value="Submit Form">
+                <input type="reset" value="Reset Form">
+            </form>
+        </section>
+
+        <!-- Advanced HTML Features -->
+        <section id="advanced">
+            <h2>🔧 Advanced HTML Features</h2>
+
+            <h3>Details and Summary</h3>
+            <details>
+                <summary>Click to expand: HTML5 Semantic Elements</summary>
+                <p>HTML5 introduced several semantic elements that provide meaning to the structure:</p>
+                <ul>
+                    <li><code>&lt;header&gt;</code> - Page or section header</li>
+                    <li><code>&lt;nav&gt;</code> - Navigation links</li>
+                    <li><code>&lt;main&gt;</code> - Main content area</li>
+                    <li><code>&lt;section&gt;</code> - Standalone section</li>
+                    <li><code>&lt;article&gt;</code> - Independent content</li>
+                    <li><code>&lt;aside&gt;</code> - Sidebar content</li>
+                    <li><code>&lt;footer&gt;</code> - Page or section footer</li>
+                </ul>
+            </details>
+
+            <h3>Progress and Meter</h3>
+            <p>Project completion progress:</p>
+            <progress value="75" max="100">75%</progress> 75% Complete<br><br>
+
+            <p>Disk usage:</p>
+            <meter value="0.6" min="0" max="1">60%</meter> 60% of disk space used<br><br>
+
+            <h3>Keyboard Shortcuts</h3>
+            <p>Use <kbd>Ctrl</kbd> + <kbd>S</kbd> to save your work!</p>
+            <p>Press <kbd>F12</kbd> to open developer tools.</p>
+        </section>
+    </main>
+
+    <!-- Sidebar -->
+    <aside>
+        <h2>📌 Quick Links</h2>
+        <ul>
+            <li><a href="index.html">Home Page</a></li>
+            <li><a href="student.prd">Student Product File</a></li>
+            <li><a href="styling.html">Styling Examples</a></li>
+            <li><a href="tables.html">Table Examples</a></li>
+            <li><a href="assets/profile.pdf" target="_blank">Profile PDF</a></li>
+        </ul>
+
+        <h3>🎯 Learning Objectives</h3>
+        <ol>
+            <li>Understand HTML structure and syntax</li>
+            <li>Learn semantic HTML elements</li>
+            <li>Master form creation and validation</li>
+            <li>Implement accessible web content</li>
+            <li>Practice with multimedia elements</li>
+        </ol>
+
+        <h3>📚 Resources</h3>
+        <ul>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">MDN HTML Reference</a></li>
+            <li><a href="https://www.w3.org/TR/html52/" target="_blank">W3C HTML5.2 Specification</a></li>
+            <li><a href="https://validator.w3.org/" target="_blank">HTML Validator</a></li>
+        </ul>
+    </aside>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>📞 Contact Information</h2>
+        <address>
+            <strong>Web Development Team</strong><br>
+            123 Code Street<br>
+            Tech City, TC 12345<br>
+            <a href="mailto:info@htmldemo.com">info@htmldemo.com</a><br>
+            <a href="tel:+1234567890">+1 (234) 567-890</a>
+        </address>
+
+        <h3>📅 Office Hours</h3>
+        <table border="1">
+            <tr>
+                <th>Day</th>
+                <th>Hours</th>
+            </tr>
+            <tr>
+                <td>Monday - Friday</td>
+                <td>9:00 AM - 5:00 PM</td>
+            </tr>
+            <tr>
+                <td>Saturday</td>
+                <td>10:00 AM - 2:00 PM</td>
+            </tr>
+            <tr>
+                <td>Sunday</td>
+                <td>Closed</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <hr>
+        <h3>🌐 HTML Demo Project Footer</h3>
+        <p>&copy; 2025 HTML Demo Project. All rights reserved.</p>
+        <p>This project demonstrates various HTML elements and features without using any CSS styling.</p>
+        <p>Created on: <time datetime="2025-07-18">July 18, 2025</time></p>
+
+        <h4>Quick Stats:</h4>
+        <ul>
+            <li>HTML Elements Used: 50+</li>
+            <li>Form Fields: 15+</li>
+            <li>Semantic Elements: ✅</li>
+            <li>Accessibility Features: ✅</li>
+            <li>Multimedia Support: ✅</li>
+        </ul>
+
+        <p><small>Last updated: <time datetime="2025-07-18T12:00:00">July 18, 2025 at 12:00 PM</time></small></p>
+    </footer>
+</body>
+
+</html>
